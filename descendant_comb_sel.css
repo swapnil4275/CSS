@@ -1,0 +1,16 @@
+/* Demonstrate Descendant Combinator Selector  */
+
+/* apply for element div  */
+div p {
+    background-color: aqua;
+}
+
+/* apply for class attribute  */
+h2.c1 {
+    background-color: blueviolet;
+}
+
+/* apply for id attribute
+h2#i1 {
+    background-color: brown;
+} */

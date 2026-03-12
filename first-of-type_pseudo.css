@@ -1,0 +1,5 @@
+/* Demonstrate :first-child structural pseudo class selector */
+
+p:first-of-type {
+    color: orangered;
+}

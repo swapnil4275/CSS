@@ -1,0 +1,8 @@
+
+/*  Demonstrate :focus interactive pseudo class selector  */
+
+
+input:focus {
+    background-color: orangered;
+    color:white;
+}

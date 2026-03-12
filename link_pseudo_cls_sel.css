@@ -1,0 +1,6 @@
+
+/* Demonstrate :link interactive pseudo class selector  */
+
+a:link {
+    background-color: yellowgreen;
+}

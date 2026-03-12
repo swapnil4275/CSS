@@ -1,0 +1,6 @@
+
+/* Demonstrate :visited interactive pseudo class selector  */
+
+a:visited {
+    color: orange;
+}

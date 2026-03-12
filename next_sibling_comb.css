@@ -1,0 +1,9 @@
+/* Demonstrate Next Sibling combinator Selector */
+
+div + p {
+    background-color: yellowgreen;
+}
+
+.c1 + p {
+    background-color: yellow;
+}

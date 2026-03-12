@@ -1,0 +1,5 @@
+/* Demonstrate :last-child structural pseudo class selector */
+
+p:last-of-type {
+    color: orangered;
+}

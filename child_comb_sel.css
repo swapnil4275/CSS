@@ -1,0 +1,11 @@
+/* demonstrate child combinator selector */
+
+/* apply for element  */
+div > p {
+    background-color:skyblue;
+}
+
+/* apply for class attribute  */
+section > .c1{
+    background-color: blue;
+}

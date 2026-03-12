@@ -1,0 +1,5 @@
+/* Demonstrate subsequent sibling combinator selector */
+
+div ~ p {
+    background-color: blueviolet;
+}

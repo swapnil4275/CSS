@@ -1,0 +1,7 @@
+
+/* Demonstrate :hover pseudo class selector  */
+
+h2:hover {
+    background-color:red;
+    color:white;
+}

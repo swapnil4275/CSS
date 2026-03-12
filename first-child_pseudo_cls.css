@@ -1,0 +1,6 @@
+
+/* Demonstrate :first-child structural pseudo class selector */
+
+p:first-child {
+    color: red;
+}

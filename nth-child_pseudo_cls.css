@@ -1,0 +1,6 @@
+
+/* Demonstrate :nth-child(n) structural pseudo class selector */
+
+p:nth-child(3) {
+    color: red;
+}

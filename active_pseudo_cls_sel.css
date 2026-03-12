@@ -1,0 +1,7 @@
+
+/* Demonstrate :active interactive pseudo class selector  */
+
+a:active {
+    color: red;
+    background-color: pink;
+}
