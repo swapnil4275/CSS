@@ -1,0 +1,25 @@
+/* Demonstrate RGBA color  */
+
+.c1 {
+    background-color: rgba(255,100,70,0);
+}
+
+.c2 {
+    background-color: rgba(255,100,70,0.2);
+}
+
+.c3 {
+    background-color: rgba(255,100,70,0.4);
+}
+
+.c4 {
+    background-color: rgba(255,100,70,0.6);
+}
+
+.c5 {
+    background-color: rgba(255,100,70,0.8);
+}
+
+.c6 {
+    background-color: rgba(255,100,70,1);
+}
