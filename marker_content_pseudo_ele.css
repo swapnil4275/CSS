@@ -1,0 +1,7 @@
+
+/* Demonstrate ::marker content pseudo element selector  */
+
+::marker{
+    color: red;
+    font-size: 20;
+}

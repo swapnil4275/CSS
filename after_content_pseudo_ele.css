@@ -1,0 +1,6 @@
+
+/* Demonstrate ::after content pseudo element selector  */
+
+p::after {
+    content: url("./images/emoji.gif");
+} 

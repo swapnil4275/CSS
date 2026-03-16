@@ -1,0 +1,6 @@
+
+/* Demonstrate [attribute|="value"] selector  */
+
+[class|="top"] {
+    background-color: yellow;
+}

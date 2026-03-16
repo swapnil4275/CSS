@@ -1,0 +1,6 @@
+
+/* ::first-letter Text Pseudo Element Selector */
+
+p.c1::first-letter {
+    color:red;
+}

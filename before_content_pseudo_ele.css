@@ -1,0 +1,6 @@
+
+/* Demonstrate ::before content pseudo element selector  */
+
+p::before {
+    content: url("./images/emoji.gif");
+} 

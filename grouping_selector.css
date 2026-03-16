@@ -1,0 +1,6 @@
+/* Demonstrate Grouping Selector  */
+
+h2, h3, p {
+    color:red;
+    background-color: black;
+}

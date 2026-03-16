@@ -1,0 +1,7 @@
+
+/* Demonstrate ::selection pseudo element selector  */
+
+::selection{
+    color: red;
+    background-color: yellow;
+}

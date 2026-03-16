@@ -1,0 +1,7 @@
+
+
+/* Demonstrate Attribute="value" Selector  */
+
+a[target~="_blank"] {
+    background-color: yellow;
+}

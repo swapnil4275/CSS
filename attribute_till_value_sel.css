@@ -1,0 +1,6 @@
+
+/* Demonstrate [attribute~="value"] selector  */
+
+[title~="flower"] {
+    border: 5px solid orangered;
+}

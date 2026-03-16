@@ -1,0 +1,6 @@
+
+/* ::first-line Text Pseudo Element Selector */
+
+p::first-line {
+    color:red;
+}

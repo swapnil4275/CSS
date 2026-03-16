@@ -1,0 +1,10 @@
+
+/* Demonstrate Text pseudo element selector  */
+
+p::first-line{
+    color:blue;
+}
+
+p.c1::first-letter{
+    color: red;
+}

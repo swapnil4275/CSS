@@ -1,0 +1,6 @@
+
+/* Demonstrate Attribute Selector  */
+
+a[target] {
+    background-color: olive;
+}
