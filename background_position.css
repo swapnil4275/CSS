@@ -1,0 +1,9 @@
+/* Demonstrate Background Position  */
+
+body {
+    background-image: url("../css/images/tree3.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+

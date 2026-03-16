@@ -1,0 +1,10 @@
+/* Demonstrate Background Image  */
+
+body {
+    background-image: url("../css/images/cons3.jpg");
+}
+
+
+h1, p {
+    color:white;
+}

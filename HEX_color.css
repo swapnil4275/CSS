@@ -1,0 +1,13 @@
+/* Demonstrate HEX color  */
+
+.c1 {
+    background-color: #ff0000;
+}
+
+.c2 {
+    background-color: #00ff00;
+}
+
+.c3 {
+    background-color: #0000ff;
+}

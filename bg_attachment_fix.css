@@ -1,0 +1,9 @@
+/* Demonstrate Background Attachment  */
+
+body {
+    background-image: url("../css/images/tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    background-attachment: fixed;
+}

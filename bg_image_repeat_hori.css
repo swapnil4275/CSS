@@ -1,0 +1,6 @@
+/* Background Image Repeat Horizontally  */
+
+body {
+    background-image: url("../css/images/bg3.jpeg");
+    background-repeat: repeat-x;
+}

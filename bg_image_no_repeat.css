@@ -1,0 +1,7 @@
+/* Demonstrate background image no repeat  */
+
+body {
+    color: orangered;
+    background-image: url("../css/images/tree.png");
+    background-repeat: no-repeat;
+}

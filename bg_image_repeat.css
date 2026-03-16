@@ -1,0 +1,6 @@
+/* Demonstrate background image repeat  */
+
+body {
+    background-image: url("../css/images/bg3.jpeg");
+    background-repeat: repeat;
+}
