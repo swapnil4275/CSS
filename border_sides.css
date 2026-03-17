@@ -1,0 +1,21 @@
+/* Demonstrate Border Sides  */
+
+p.c1{
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}
+
+
+p.c2{
+    border-top-style: dashed;
+    border-right-style: dashed;
+    border-bottom-style: double;
+    border-left-style: double;
+}
+
+
+p.c3{
+    border-style: dashed dotted double solid;
+}

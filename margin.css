@@ -1,0 +1,14 @@
+/* Demonstrate CSS Margin  */
+
+div {
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 800px;
+    margin-bottom: 40px;
+}
+
+/* div {
+    border: 2px solid black;
+    margin: 30px 50px 800px 40px;
+} */

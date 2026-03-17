@@ -1,0 +1,12 @@
+/* Demonstrate Border Radius  */
+
+#id_1{
+    border-style: solid;
+    border-radius: 30px;
+}
+
+
+#id_2{
+    border-style: solid;
+    border-radius: 50px 20px;
+}

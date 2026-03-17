@@ -1,0 +1,26 @@
+/* Demonstrate Border Color  */
+
+p.red{
+    border-style: solid;
+    border-color: red;
+}
+
+p.green{
+    border-style: solid;
+    border-color: green;
+}
+
+p.blue{
+    border-style: solid;
+    border-color: blue;
+}
+
+p.rgb{
+    border-style: solid;
+    border-color: rgb(255,100,70)
+}
+
+p.multi{
+    border-style: solid;
+    border-color: red green yellow blue;
+}

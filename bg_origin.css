@@ -1,0 +1,27 @@
+/* Demonstrate Background origin property  */
+
+#padding_box{
+    border: 10px dashed black;
+    padding: 20px;
+    background-image: url("../css/images/c1.jpg");
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+}
+
+
+#border_box{
+    border: 10px dashed black;
+    padding: 20px;
+    background-image: url("../css/images/c1.jpg");
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+
+
+#content_box{
+    border: 10px dashed black;
+    padding: 20px;
+    background-image: url("../css/images/c1.jpg");
+    background-origin: content-box;
+    background-repeat: no-repeat;
+}

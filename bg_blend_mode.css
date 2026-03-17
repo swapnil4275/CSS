@@ -1,0 +1,6 @@
+/* Demonstrate Background blend-mode property  */
+
+body {
+    background-image: url("../css/images/flower-3.jpg"), url("../css/images/bg4.jpg");
+    background-blend-mode: lighten;
+}

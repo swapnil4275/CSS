@@ -1,0 +1,27 @@
+/* Demonstrate Background clip property  */
+
+#border_box{
+    border: 10px dashed black;
+    padding: 20px;
+    background-image: url("../css/images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+
+
+#padding_box{
+    border: 10px dashed black;
+    padding: 20px;
+    background-image: url("../css/images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+}
+
+
+#content_box{
+    border: 10px dashed black;
+    padding: 20px;
+    background-image: url("../css/images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
