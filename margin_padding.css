@@ -1,0 +1,7 @@
+/* Demonstrate Margin & padding  */
+
+div {
+    border: 5px solid black;
+    margin: 50px 800px 30px 50px;
+    padding: 20px 20px 20px 20px;
+}
