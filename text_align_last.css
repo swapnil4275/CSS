@@ -1,0 +1,40 @@
+/* Demonstrate Text align-last property  */
+
+body {
+    width: 1000px;
+}
+
+.auto {
+    text-align: justify;
+    text-align-last: auto;
+}
+
+.right {
+    text-align: justify;
+    text-align-last: right;
+}
+
+.left {
+    text-align: justify;
+    text-align-last: left;
+}
+
+.center {
+    text-align: justify;
+    text-align-last: center;
+}
+
+.justify {
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.start {
+    text-align: justify;
+    text-align-last: start;
+}
+
+.end {
+    text-align: justify;
+    text-align-last: end;
+}

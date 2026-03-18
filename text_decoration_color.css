@@ -1,0 +1,16 @@
+/* Demonstrate text-decoration-color */
+
+#red {
+    text-decoration: overline;
+    text-decoration-color: red;
+}
+
+#green {
+    text-decoration: overline;
+    text-decoration-color: green;
+}
+
+#blue {
+    text-decoration: overline;
+    text-decoration-color: blue;
+}

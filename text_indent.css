@@ -1,0 +1,9 @@
+/* Demonstrate Text Indentation (indent) property  */
+
+#i1 {
+    text-indent: 50px;
+}
+
+#i2 {
+    text-indent: 10%;
+}

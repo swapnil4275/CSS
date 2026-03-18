@@ -1,0 +1,17 @@
+/* Demonstrate text decoration line property  */
+
+p.c1 {
+    text-decoration-line: overline;
+}
+
+p.c2 {
+    text-decoration-line: underline;
+}
+
+p.c3 {
+    text-decoration-line: line-through;
+}
+
+p.c4 {
+    text-decoration-line: overline underline;
+}

@@ -1,0 +1,21 @@
+/* Demonstrate text align property */
+
+body {
+    width: 1000px;
+}
+
+div.center {
+    text-align: center;
+}
+
+div.left {
+    text-align: left;
+}
+
+div.right {
+    text-align: right;
+}
+
+div.justify {
+    text-align: justify;
+}

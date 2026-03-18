@@ -1,0 +1,13 @@
+/* Demonstrate Text Transform  */
+
+.c1 {
+    text-transform: uppercase;
+}
+
+.c2 {
+    text-transform: lowercase;
+}
+
+.c3 {
+    text-transform: capitalize;
+}

@@ -1,0 +1,26 @@
+/* Demonstrate Height & Width (min, max) */
+
+.div1 {
+    background-color: skyblue;
+    width: 500;
+    height: 150;
+}
+
+.div2 {
+    background-color: skyblue;
+    width: 1000px;
+    max-width: 600px;
+    min-width: 100px;
+}
+
+.div3 {
+    background-color: skyblue;
+    min-width: 50px;
+    min-height: 20px;
+}
+
+.div4 {
+    background-color: skyblue;
+    width: auto;
+    height: auto;
+}

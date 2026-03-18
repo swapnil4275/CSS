@@ -1,0 +1,13 @@
+/* Demonstrate spacing (latter-spacing, line-height, word-spacing, white-space)  */
+
+.letter_space {
+    letter-spacing: 3px;
+}
+
+.line_height {
+    line-height: 2;
+}
+
+.word_space  {
+    word-spacing: 15px;
+}

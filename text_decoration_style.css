@@ -1,0 +1,26 @@
+/* Demonstrate text decoration style property  */
+
+#i1 {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+#i2 {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+#i3 {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
+
+#i4 {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+#i5 {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
