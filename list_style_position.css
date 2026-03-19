@@ -1,0 +1,9 @@
+/* Demonstrate CSS List Style Position  */
+
+.in {
+    list-style-position: inside;
+}
+
+.out {
+    list-style-position: outside;
+}

@@ -1,0 +1,6 @@
+/* Demonstrate List Style Image  */
+
+ul {
+    list-style-type: square;
+    list-style-image: url("../css/images/bg5.jpg");
+}

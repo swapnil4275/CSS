@@ -1,0 +1,11 @@
+/* Demonstrate outline  */
+
+div.c1 {
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 15px;
+}
+
+div.c2 {
+    outline: double black 10px;
+}
