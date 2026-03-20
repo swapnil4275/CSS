@@ -1,0 +1,92 @@
+<!-- Create Login Form UI  -->
+
+<html>
+
+<head>
+    <title>Login UI</title>
+
+    <style>
+        body {
+            display: flex;
+            background: rgba(30, 30, 30, 0.947);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main {
+            width: 370px;
+            height: 280px;
+            padding: 30px;
+            border-radius: 20px;
+            background: rgb(45, 45, 45);
+            text-align: center;
+            box-shadow: 0 0 20px rgba(255, 166, 0, 0.79);
+        }
+
+        h1 {
+            color: rgba(255, 255, 255, 1);
+        }
+
+        h3 {
+            margin: 15px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgba(58, 58, 58, 1);
+            color: rgba(231, 226, 226, 0.83);
+            box-shadow: inset 0 0 6px;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            border-radius: 20px;
+            border: none;
+            box-shadow: 0 0 10px rgba(255, 165, 0, 0.8);
+            background: rgba(30, 30, 30, 0.8);
+            color: rgba(255, 255, 255, 0.885);
+            margin-top: 10px;
+        }
+
+        input:focus {
+            border: none;
+            outline: none;
+            box-shadow: 0 0 30px rgba(255, 165, 0, 1);
+        }
+
+        #sub {
+            width: 60%;
+            border-radius: 20px;
+            border: none;
+            box-shadow: inset 0 0 40px rgba(255, 77, 0, 0.96);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+
+        <div class="main">
+            <h1>Login Form</h1>
+
+            <h3>CODING POLAR</h3>
+
+            <div class="info">
+
+                <input type="text" id="mail" name="mail" placeholder="Enter Name:">
+
+                <br><br>
+                <!-- <button>LOG IN</button> -->
+
+                <input type="submit" value="LOG IN" id="sub">
+
+            </div>
+
+        </div>
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+
+
+/* .info {
+}
+
+.role {
+    margin-right: 500;
+
+} */
+
+.container {
+    /* margin: 20px;
+    padding: 20px;
+    width: 80%;
+    align-items: center; */
+    display: flex;
+}
+
+.info {
+    width: 30%;
+    /* align: left 
+    line-height: 1.8; */
+}
+
+.role {
+    width: 50%;
+    /* align: right; */
+    
+}
