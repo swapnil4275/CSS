@@ -5,9 +5,19 @@
 <head>
     <title>Login UI</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             display: flex;
+            width: 100%;
+            /* min-height: 100vh; */
+            margin: 0;
             background: rgba(30, 30, 30, 0.947);
             justify-content: center;
             align-items: center;
@@ -15,12 +25,16 @@
 
         .main {
             width: 370px;
-            height: 280px;
+            max-width: 95%;
+            height: 80%;
             padding: 30px;
             border-radius: 20px;
             background: rgb(45, 45, 45);
             text-align: center;
-            box-shadow: 0 0 20px rgba(255, 166, 0, 0.79);
+
+            box-shadow: 0 0 20px rgba(255, 140, 0, 0.4),
+                        0 0 40px rgba(255, 140, 0, 0.3),
+                        0 10px 40px rgba(0, 0, 0, 0.8);
         }
 
         h1 {
@@ -36,8 +50,14 @@
             box-shadow: inset 0 0 6px;
         }
 
+        form {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
         input {
-            width: 90%;
+            width: 100%;
             padding: 10px;
             border-radius: 20px;
             border: none;
@@ -59,6 +79,29 @@
             border: none;
             box-shadow: inset 0 0 40px rgba(255, 77, 0, 0.96);
             cursor: pointer;
+        }
+
+
+        /* Apply Media Queries  */
+        @media screen and (max-width: 480px) {
+
+            /* body {
+                width: 100%;
+            } */
+
+            .main {
+                width: 95%;
+                padding: 20px;
+            }
+
+            input {
+                width: 100%;
+            }
+
+            #sub {
+                width: 100%;
+            }
+
         }
     </style>
 </head>

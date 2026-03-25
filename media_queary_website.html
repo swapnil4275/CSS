@@ -1,0 +1,170 @@
+<!-- create website use Media Quaries -->
+
+<html>
+
+<head>
+    <title>Website @media</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            /* background-image: linear-gradient (to bottom rgb(147, 223, 221), rgb(187, 230, 241)); */
+            /* background-image: linear-gradient(to bottom right, red, yellow); */
+            margin: 3px;
+        }
+
+        /* .note {
+            text-align: center;
+            background-color: rgb(173, 216, 230);
+        } */
+
+        header {
+            font-size: large;
+            text-align: center;
+            padding: 50px;
+            background-color: rgb(182, 253, 253);
+
+            /* background-color: rgb(207, 224, 231); */
+        }
+
+        .nav {
+            /* background-color: rgb(204, 220, 225); */
+
+            display: flex;
+            background-color: rgba(83, 71, 71, 0.864);
+        }
+
+        .nav a {
+            color: white;
+            text-align: center;
+            padding: 20px 28px;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            background-color: rgb(219, 211, 211);
+            color: rgb(65, 59, 59);
+        }
+
+        .container {
+            /* background-color: rgb(206, 226, 226); */
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(192, 248, 248);
+        }
+
+        .side {
+            flex: 25%;
+            background-color: rgb(183, 243, 243);
+            padding: 20px;
+        }
+
+        .main {
+            flex: 75%;
+            padding: 20px;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: rgb(196, 248, 248);
+        }
+
+        /* Apply Media Queries  */
+        @media screen and (max-width:900px) {
+
+            .container,
+            .nav {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .side,
+            .main {
+                flex: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Note  -->
+    <!-- <div class="note">
+        <h4>Create website for demonstrate @media</h4>
+    </div> -->
+
+    <!-- Heading  -->
+    <header>
+        <h2>My Website</h2>
+        <p>Demonstrate @media queries</p>
+    </header>
+
+    <!-- Navigation Bar  -->
+    <div class="nav">
+        <a href="media1.html">1st webpage</a>
+        <a href="media2.html">2nd webpage</a>
+        <a href="media3.html">3rd webpage</a>
+    </div>
+
+
+    <!-- Containt Container  -->
+    <div class="container">
+
+        <div class="side">
+            <h2>About Me:</h2>
+            <h5>Photo of me</h5>
+            <img src=".\images\cons3.jpg" alt="swapnil" style="height: 200px;">
+            <!-- "D:\DevMinds\css\images\cons3.jpg" -->
+            <p>Construction is the process involved in delivering buildings,<br>
+                infrastructure, industrial facilities, and associated activities<br>
+                through to the end of their life.</p>
+            <br>
+            <h2>More text</h2>
+            <p> It typically starts with planning, financing, and design that<br>
+                continues until the asset is built and ready for use.<br>
+                Construction also covers repairs and maintenance work</p>
+
+            <!-- <img src=".\images\cons2.jpg" alt="sss" style="width: 33%;"> -->
+            <img src=".\images\bg1.jpg" alt="ss" style="width: 200px;">
+            <img src=".\images\cons.avif" alt="s" style="width: 210px;">
+        </div>
+
+        <div class="main">
+            <h2>Title Heading</h2>
+            <h5>Title description, oct 7, 2026</h5>
+            <img src=".\images\cons2.jpg" alt="con" style="width: 80%;">
+
+            <p>Some text..</p>
+            <p>Building construction is the process of adding structures to areas of land,<br>
+                also known as real property sites. Typically, a project is instigated by or<br>
+                with the owner of the property (who may be an individual or an organisation);<br>
+                occasionally, land may be compulsorily purchased from the owner for public use.</p>
+
+            <br> <br>
+
+            <h2>Title Heading</h2>
+            <h5>Title description, sep 2, 2026</h5>
+            <img src=".\images\bg-1.jpg" alt="con1" style="width: 80%;">
+
+            <p>Some text..</p>
+            <p>Building construction is the process of adding structures to areas of land,<br>
+                also known as real property sites. Typically, a project is instigated by or<br>
+                with the owner of the property (who may be an individual or an organisation);<br>
+                occasionally, land may be compulsorily purchased from the owner for public use.</p>
+
+        </div>
+
+    </div>
+
+    <footer>
+        @ 2026. Site by DevMinds.
+    </footer>
+
+
+</body>
+
+</html>
