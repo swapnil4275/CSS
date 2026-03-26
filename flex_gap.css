@@ -1,0 +1,6 @@
+/* Demonstrate flex gap property */
+
+.container1 {
+    display: flex;
+    gap: 80px;
+}

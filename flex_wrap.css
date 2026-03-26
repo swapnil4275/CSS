@@ -1,0 +1,27 @@
+/* Demonstrate flex wrap */
+
+.box {
+    margin: 25px;
+    padding: 20px;
+    border: 1px red solid;
+}
+
+/* flex-wrap: wrap; */
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* flex-wrap: nowrap; */
+.container2{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+/* flex-wrap: wrap-reverse; */
+.container3 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}

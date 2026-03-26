@@ -1,0 +1,28 @@
+ /* Demonstrate Flex Direction property */
+
+ /* flex-direction: row;  */
+.container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* flex-direction: row-reverse; */
+.container2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+/* flex-direction: column; */
+.container3 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* flex-direction: column-reverse; */
+.container4 {
+    display: flex;
+    flex-direction: column-reverse;
+}
