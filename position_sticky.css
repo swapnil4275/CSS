@@ -1,0 +1,25 @@
+/* Demonstrate position: sticky; */
+
+/* .relative {
+    background: lightblue;
+    width: 300px;
+    height: 200px;
+
+    position: relative;
+    top: 20px;
+    left: 20px;
+} */
+
+.sticky {
+    position: sticky;
+    top: 5px;
+    margin: 5px;
+    padding: 10px;
+    background: red;
+}
+
+.relative, p {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}

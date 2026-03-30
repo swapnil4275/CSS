@@ -1,0 +1,15 @@
+/* Demonstrate grid fr unit */
+
+.container1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 2fr 1fr;
+        }
+
+        .box {
+            margin: 10px;
+            padding: 10px;
+            background-color: lightblue;
+            text-align: center;
+            font-size: 30px;
+        }

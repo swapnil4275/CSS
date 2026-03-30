@@ -1,0 +1,14 @@
+/* Demonstrate grid template columns property */
+
+.container1 {
+            display: grid;
+            grid-template-columns: 300px 300px;
+        }
+
+        .box {
+            /* margin: 20px; */
+            padding: 10px;
+            background-color: lightblue;
+            text-align: center;
+            font-size: 30px;
+        }

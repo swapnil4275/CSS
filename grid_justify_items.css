@@ -1,0 +1,17 @@
+/* Demonstrate grid justify items */
+
+.container1 {
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            /* grid-template-rows: repeat(3, 1fr); */
+
+            justify-items: left;
+        }
+
+        .box {
+            margin: 10px;
+            padding: 10px;
+            background-color: lightblue;
+            text-align: center;
+            font-size: 30px;
+        }

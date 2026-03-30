@@ -1,0 +1,15 @@
+/* Demonstrate grid template rows property */
+
+.container1 {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.box {
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    text-align: center;
+    font-size: 30px;
+}

@@ -1,0 +1,236 @@
+/* Design interior home page  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: white;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    color: black;
+    font-family: 'Times New Roman';
+}
+
+
+
+/* Background corners */
+.left-corner {
+    position: absolute;
+    top: 130px;
+    left: -80px;
+    width: 180px;
+    height: 380px;
+
+    background: linear-gradient(rgb(217, 243, 106), rgb(24, 240, 208));
+    border-radius: 100px 100px 150px 120px;
+    z-index: 0;
+}
+
+.right-corner {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 130px;
+    height: 150px;
+    /* flex: 1;
+    max-width: 500px; */
+
+    background: linear-gradient(rgb(157, 242, 90), rgb(27, 243, 213));
+    border-radius: 0px 0px 80px 80px;
+    z-index: 0;
+}
+
+.mid-corner {
+    position: absolute;
+    right: 40px;
+    bottom: 110px;
+    width: 65px;
+    height: 85px;
+
+    background: linear-gradient(rgb(255, 211, 109), rgb(24, 240, 208));
+    border-radius: 50%;
+    z-index: 0;
+}
+
+
+/* Navigation Bar  */
+.navbar {
+    width: 90%;
+    max-width: 1300px;
+    height: 70px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+}
+
+.logo h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.logo span {
+    color: rgb(47, 230, 209);
+    font-size: 20px;
+    margin-left: 65px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(50,50,50);
+    font-size: 17px;
+    position: relative;
+}
+
+nav a.active {
+    text-decoration: overline solid 3px rgb(84, 195, 238);
+}
+
+.nav-right {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-right: 55px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(215, 215, 215);
+    padding: 6px 0px;
+    gap: 10px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: gray;
+    background: transparent;
+}
+
+.signup {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+}
+
+
+
+/* Content Section  */
+.content {
+    width: 95%;
+    max-width: 1300px;
+    min-height: 420px;
+    margin: 20px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.text-content {
+    width: 50%;
+    padding-left: 70px;
+    position: relative;
+    top: -5px;
+    margin-left: 40px;
+}
+
+.text-content h1 {
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 800;
+    margin-bottom: 18px;
+    padding-left: 10px;
+}
+
+.text-content p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(85, 85, 85);
+    max-width: 540px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+
+/* Watch Video  */
+.watch-video {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.watch-video span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.watch-line {
+    width: 130px;
+    height: 3px;
+    background-color: rgb(102, 102, 102);
+}
+
+
+/* Background Design  */
+.design {
+    position: fixed;
+    width: 50%;
+    height: 390px;
+    position: relative;
+    top: 40px;
+}
+
+.big-bg {
+    position: absolute;
+    width: 420px;
+    height: 300px;
+    background: linear-gradient(rgb(255, 228, 123), rgb(29, 235, 213));
+    border-radius: 50% 40% 45% 35%;
+    top: 15px;
+    right: 15px;
+    z-index: 1;
+}
+
+.sofa-img {
+    position: absolute;
+    width: 350px;
+    top: 185px;
+    left: 5px;
+    z-index: 2;
+}
+
+
+/* Bottom Links  */
+.bottom-links {
+    width: 95%;
+    max-width: 1300px;
+    margin: 20px auto;
+    padding-left: 70px;
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+}
+
+.bottom-links a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
